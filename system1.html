@@ -34,7 +34,6 @@
     <!-- Main -->
     <div id="main">
         <div class="inner">
-
             <!-- Header -->
             <header id="header">
                 <div class="logo">
@@ -47,46 +46,128 @@
 
                     <div class="row">
                         <div class="col-md-12">
-                            <h1>中医药处方及中草药数据分析和挖掘</h1>
-                            <p>中医药是中华文化的重要组成部分，在数以千年的发展过程中形成了完整的知识理论体系，同时也保留了大量经典的中医药书籍和处方，形成了十分具有研究价值的数据。为了更好的挖掘和分析中医药处方数据的价值，本文收集了《中国药典》以及经典古籍中的草药和处方数据并对其进行了清洗整理，在此基础上开展了两项研究工作：</p>
-		<p>(1)利用常见数据挖掘技术对中医药各数据属性内容之间的规律和联系进行了探索，比如处方和草药、草药对、功能和症状等属性之间的关系。这不仅可以了解、验证中医经典理论和问诊原理，如理法方药、草药对搭配等</p>
-		<p>(2)通过了解探索不同GAN的结构以及实验效果，比如GAN、CGAN、SeqGAN、MaskGAN等，参考了适合于离散文本序列生成的网络结构，探索出了适合于处方文本序列生成的模型结构，然后搭建了适合的生成对抗网络并调整了网络结构，通过整理输入训练数据集生成了新处方。</p>
-                        </div>
-<div>
-                                <table>
-                                    <thead>
-                                    <tbody>
-			<tr></tr>
-		         <tr>
-                                        <td><img src="assets/images/1word-herbfunction.jpg" alt="left" width:100px; height:auto></td>
-                                        <td><img src="assets/images/1word-herbnature.jpg" alt="right" width:100px; height:auto></td>
-                                    </tr>
-			<tr><td align="center">草药的功能</td><td align="center">草药的性质</td></tr>
-		       <tr>
-		           <td><img src="assets/images/1word-herborgan.jpg" alt="" width:100px; height:auto></td>
-		           <td><img src="assets/images/1word-herbtaste.jpg" alt="" width:100px; height:auto></td>
-                                    </tr>
-			<tr><td align="center">草药的归经</td><td align="center">草药的味道</td></tr>
-		       </tbody>
-                                </table>
-                    </div>
-                </div>
-            </div>
+                            <h1>民航QAR大数据分析</h1>
+                            <p>飞行品质监控（Flight Operations Quality Assurance，FOQA）是保障民用航空器飞行安全的国际通用方案。飞行品质监控通过收集和分析快速存储记录器（Quick Access Recorder，QAR）的数据来监测飞行参数超限情况，识别出不符合标准的操作、存在缺陷的程序、航空器性能的衰减、空中交通管制系统的不完善等安全隐患，有助于提高机组操纵品质、改进标准操作程序、完善飞行训练大纲等。</p>
+                        </div> 
+                        <!-- Right Image -->
+                        <section class="left-image">
+                          <div class="container-fluid">
+                            <div class="row">
+                              <div class="col-md-5">
+                                <div class="left-content">
+                                  <h4>民航飞行异常检测及成因分析</h4>
+                                  <p>机器学习或深度学习的方法，通过QAR数据训练模型来自动学习多维度参数间的复杂关系，以及飞行异常的判别标准，基于训练的模型能够自动检测出各种异常事件;实现同一航段的不同异常事件的检测，以及多类型异常耦合事件的检测;实现更加自动化和智能化的异常事件成因分析.</p>
+                                  <div class="primary-button">
+                                    <a href="publications.html">相关论文</a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-7">
+                                <img src="assets/images/hua-framework.jpg" alt="" style="width: 800; height: auto;">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="default-table">
+                            <table>           
+                                <tr>
+                                  <td><img src="assets/images/hua-distribution.jpg" alt="center" width:600px; height:auto></td>
+                                  <td><img src="assets/images/hua-multitype.png" alt="center" width:600px; height:auto></td>
+                              </tr>
+                              <tr align="center"><td> QAR 数据中异常事件的分布</td> <td> 多类型异常检测结果</td></tr>
+                              <tr>    
+                                <td><img src="assets/images/hua-whole-shap.png" alt="left" width:600px; height:auto></td>                                
+                                <td><img src="assets/images/hua-Large-Decent-Rate(2000ft-1000ft).png" alt="right" width:600px; height:auto></td>
+                            </tr>
+                            <tr align="center"><td> 异常事件成因分析(整个模型) </td> <td> 异常事件成因分析(Large-Decent-Rate(2000ft-1000ft)) </td></tr>
+                            </table>
+                          </div>
+                        </section>  
 
-            <!-- Simple Post -->
-            <section class="simple-post">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <img src="assets/images/system11.jpg" alt="">
-		<p align="center"><strong>中医药处方数据探索分析系统</strong></p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+                         <!-- Left Image -->
+                        <section class="left-image">
+                          <div class="container-fluid">
+                            <div class="row">
+                              <div class="col-md-6">
+                                <img src="assets/images/QAR-ouyang-duowei.jpg" alt="" style="width: 600; height: auto;">
+                              </div>
+                              <div class="col-md-6">
+                                <div class="right-content">
+                                  <h4>多维QAR数据异常检测</h4>
+                                  <p>面向多维的QAR数据提出了一种新的基于LSTM的异常检测模型CVAE-LSTM<sub>Attention</sub>，该方法在单维的基础上利用卷积变分自编码器捕捉多个维度之间的相关性，能够捕获多个时间序列数据通道之间的空间信息和时间信息，对序列模式进行可解释的重建从而检测所有类型的异常.</p>
+                                  <div class="primary-button">
+                                    <a href="publications.html">相关论文</a>
+                                  </div>
+                                </div>
+                              </div> 
+                            </div>                 
+                          </div>
+                          <div class="default-table">
+                            <table>                              
+                                <tr>
+                                    <td><img src="assets/images/ouyang-Mclimb.jpg" alt="center" style="width: 450; height: auto;" ></td>
+                                    <td><img src="assets/images/ouyang-Mcruise.jpg" alt="center" style="width: 450; height: auto;" ></td>
+                                    <td><img src="assets/images/ouyang-Mdescent.jpg" alt="right" style="width: 450; height: auto;" ></td>
+                                </tr>
+                                <tr><td align="center">爬升阶段</td><td align="center">巡航阶段</td><td align="center">进近阶段</td></tr>
+                            </table>
+                          </div>
+                        </section>
+                                               
+
+                        <!-- Right Image -->
+                        <section class="left-image">
+                          <div class="container-fluid">
+                            <div class="row">
+                              <div class="col-md-6">
+                                <div class="left-content">
+                                  <h4>多维时序数据（QAR）缺失修复</h4>
+                                  <p>模型以GAN为基本架构，利用GAN网络中的生成器和判别器的对抗性特点，来获取多维时间序列中真实值的数据特征以修复缺失值。为获取多维时间序列中不同维度数据之间的关联性，本文在生成器中分别引入注意力机制（Attention Mechanism）和自注意力机制（Self-Attention Mechanism）.</p>
+                                  <p>针对民航QAR数据进行通用性处理操作，使得提出的模型能够针对不同航班、不同类型、不同长度的多维QAR数据的缺失值进行修复操作.</p>
+                                  <div class="primary-button">
+                                    <a href="publications.html">相关论文</a>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-6">
+                                <img src="assets/images/network4ts.jpg" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </section>  
+                         <!-- Left Image -->
+                         <section class="left-image">
+                            <div class="container-fluid">
+                              <div class="row">
+                                <div class="col-md-8">
+                                  <img src="assets/images/mingjun-1.png" alt="">
+                                </div>
+                                <div class="col-md-4">
+                                  <div class="right-content">
+                                    <h4>面向QAR数据的多类型异常检测通用模型</h4>
+                                    <p>将图注意力模块与带有注意力机制的长短时记忆网络相结合，借助丰富的时空表征信息，能够更加容易地学习QAR数据中的复杂依赖关系. 实验表明，所提模型能够有效检测QAR数据中存在的不同类型异常，并具备良好的可解释性.</p>
+                                    <div class="primary-button">
+                                      <a href="publications.html">相关论文</a>
+                                    </div>
+                                  </div>
+                                </div> 
+                              </div>                 
+                            </div>
+                            <div class="default-table">
+                              <table align="center">                           
+                                  <tr>
+                                      <td><img src="assets/images/mingjun-point.jpg" alt="left" width:100px; height:auto></td>                              
+                                  </tr>
+                                  <tr align="center"><td> 点异常检测 </td></tr>
+                                  <tr><td><img src="assets/images/mingjun-sequential.jpg" alt="left" width:100px; height:auto></td>  </tr>
+                                  <tr align="center"><td> 序列异常检测 </td></tr>
+                              </table>
+                            </div>
+                          </section>                             
+                    </div>                
+            </div>
+             <!-- Simple Post -->
         </div>
     </div>
-
     <!-- Sidebar -->
     <script type="text/javascript" src="assets/js/side.js"></script>
 
