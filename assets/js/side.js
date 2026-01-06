@@ -13,9 +13,10 @@ document.writeln("                <li><a href=\"teaching.html\">课程教学</a>
 document.writeln("                <li>");
 document.writeln("                  <span class=\"opener\">系统开发</span>");
 document.writeln("                  <ul>");
+document.writeln("                    <li><a href=\"systemFOQA.html\">民航飞行品质监控系统</a></li>");   
+document.writeln("                    <li><a href=\"systemAPP.html\">民航智能出行</a></li>"); 
 document.writeln("                    <li><a href=\"system3.html\">中医药处方及中草药数据分析系统</a></li>");
-document.writeln("                    <li><a href=\"system2.html\">中华菜系数据分析系统</a></li>"); 
-document.writeln("                    <li><a href=\"systemFOQA.html\">民航飞行品质监控系统</a></li>");                   
+document.writeln("                    <li><a href=\"system2.html\">中华菜系数据分析系统</a></li>");                 
 document.writeln("                  </ul>");
 document.writeln("                </li>");
 document.writeln("                <li><a href=\"https://www.google.com\">External Link</a></li>");
